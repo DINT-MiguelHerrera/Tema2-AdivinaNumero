@@ -15,11 +15,11 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <TextBox x:Name="CasillaPregunta" HorizontalAlignment="Center" Margin="0,134,0,0" TextWrapping="Wrap" Text="¿Qúe número has pensado?" VerticalAlignment="Top" BorderBrush="White" Foreground="Blue" FontSize="24"/>
-        <TextBox x:Name="CasillaIntroduceNumero" HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" BorderBrush="#FF0040FF" Background="White"/>
-        <Button x:Name="BotonComprobar" Content="Comprobar" HorizontalAlignment="Left" Margin="294,265,0,0" VerticalAlignment="Top" Click="BotonComprobar_Click" Foreground="Blue" BorderBrush="White" Background="Red" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
-        <Button x:Name="BotonReiniciar" Content="Reiniciar" HorizontalAlignment="Left" Margin="404,265,0,0" VerticalAlignment="Top" Click="BotonReiniciar_Click" FontSize="18" Background="Red" BorderBrush="White" Foreground="Blue"/>
-        <TextBlock x:Name="CasillaInforma" HorizontalAlignment="Center" Margin="0,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="14" TextAlignment="Center" FontWeight="Bold"/>
+        <TextBox x:Name="casillaPregunta" HorizontalAlignment="Center" Margin="0,134,0,0" TextWrapping="Wrap" Text="¿Qúe número has pensado?" VerticalAlignment="Top" BorderBrush="White" Foreground="Blue" FontSize="24"/>
+        <TextBox x:Name="casillaIntroduceNumero" HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" BorderBrush="#FF0040FF" Background="White"/>
+        <Button x:Name="botonComprobar" Content="Comprobar" HorizontalAlignment="Left" Margin="294,265,0,0" VerticalAlignment="Top" Click="BotonComprobar_Click" Foreground="Blue" BorderBrush="White" Background="Red" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="botonReiniciar" Content="Reiniciar" HorizontalAlignment="Left" Margin="404,265,0,0" VerticalAlignment="Top" Click="BotonReiniciar_Click" FontSize="18" Background="Red" BorderBrush="White" Foreground="Blue"/>
+        <TextBlock x:Name="casillaInforma" HorizontalAlignment="Center" Margin="0,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="14" TextAlignment="Center" FontWeight="Bold"/>
 
     </Grid>
 </Window>
