@@ -5,13 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_AdivinaNumero"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox x:Name="Pregunta" HorizontalAlignment="Left" Margin="245,191,0,0" TextWrapping="Wrap" Text="¿Qúe número has pensado?" VerticalAlignment="Top" Width="155"/>
-        <TextBox x:Name="CasillaIntroduceNumero" HorizontalAlignment="Left" Margin="420,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="BotonComprobar" Content="Comprobar" HorizontalAlignment="Left" Margin="322,232,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="BotonReiniciar" Content="Reiniciar" HorizontalAlignment="Left" Margin="400,232,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="558,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108"/>
+        Title="AdivinaNumero" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.129"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBox x:Name="CasillaPregunta" HorizontalAlignment="Center" Margin="0,134,0,0" TextWrapping="Wrap" Text="¿Qúe número has pensado?" VerticalAlignment="Top" BorderBrush="White" Foreground="Blue" FontSize="24"/>
+        <TextBox x:Name="CasillaIntroduceNumero" HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" BorderBrush="#FF0040FF" Background="White"/>
+        <Button x:Name="BotonComprobar" Content="Comprobar" HorizontalAlignment="Left" Margin="294,265,0,0" VerticalAlignment="Top" Click="BotonComprobar_Click" Foreground="Blue" BorderBrush="White" Background="Red" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="BotonReiniciar" Content="Reiniciar" HorizontalAlignment="Left" Margin="404,265,0,0" VerticalAlignment="Top" Click="BotonReiniciar_Click" FontSize="18" Background="Red" BorderBrush="White" Foreground="Blue"/>
+        <TextBlock x:Name="CasillaInforma" HorizontalAlignment="Center" Margin="0,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="14" TextAlignment="Center" FontWeight="Bold"/>
 
     </Grid>
 </Window>
